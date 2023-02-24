@@ -56,11 +56,10 @@
           type="button"
           aria-expanded="false"
           aria-controls="mobile-menu">
-          <svg class="header-menu-icon" widht="30px" height="20px">
-          <use class="header-menu-btn" href="./images/icons.svg#icon-vector"> </use>
+          <svg class="header-menu-icon" widht="30" height="20">
+          <use href="./images/icons.svg#icon-menu-icon"> </use>
           </svg>
         </button>
-      </div>
     </header>
     <main> 
       <!-- Hero section -->
@@ -702,6 +701,67 @@
       </div>
     </div>
 
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle modal-btn js-close-menu" type="button" js-close-menu>
+        <svg class="modal-icon" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li>
+          <a href="" class="link">About</a>
+        </li>
+        <li>
+          <a href="" class="link">Products</a>
+        </li>
+        <li>
+          <a href="" class="link">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li>
+          <a href="" class="link">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a href="" class="link">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-socials">
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="mobile-socials-icon">
+              <use></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
     <script src="./js/modal.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
