@@ -58,6 +58,14 @@
           </li>
         </ul>
       </address>
+      <button class="header-menu js-open-menu" 
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu">
+      <svg class="header-menu-icon" widht="30" height="20">
+      <use href="./images/icons.svg#icon-menu-icon"> </use>
+      </svg>
+    </button>
     </div>
   </header>
   <main>
@@ -148,5 +156,87 @@
         </div>
       </div>
     </footer>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle modal-btn js-close-menu" type="button" js-close-menu>
+        <svg class="modal-icon" width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li class="mobile-menu-link">
+          <a href="./index.html" class="mobile-link">Studio</a>
+        </li>
+        <li class="mobile-menu-link">
+          <a href="/portfolio.html" class="mobile-link">Portfolio</a>
+        </li>
+        <li class="mobile-menu-link">
+          <a href="./contacts.html" class="mobile-link">Contacts</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li>
+          <a href="tel:+11(000)111-11-11" class="mobile-contacts-tel">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mobile-contacts-mail">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-socials">
+        <li class="mobile-social-item social-item">
+          <a
+            class="mobile-social-link social-link"
+            href="https://instagram.com"
+            rel="noopener noreferrer"
+            aria-label="Instagram link"
+          >
+            <svg class="mobile-soc-links soc-links" widht="24px" height="24px">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item social-item">
+          <a
+            class="mobile-social-link social-link"
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            aria-label="Twitter link"
+          >
+            <svg class="mobile-soc-links soc-links" widht="24px" height="24px">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item social-item">
+          <a
+            class="mobile-social-link social-link"
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            aria-label="Facebook link"
+          >
+            <svg class="mobile-soc-links soc-links" widht="24px" height="24px">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item social-item">
+          <a
+            class="mobile-social-link social-link"
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            aria-label="Linkedin link"
+          >
+            <svg class="mobile-soc-links soc-links" widht="24px" height="24px">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
+    <script src="./js/modal.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
