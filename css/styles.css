@@ -47,8 +47,8 @@ body {
 .container {
   min-width: 320px;
   max-width: 428px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
   padding-top: 96px;
   padding-bottom: 96px;
   outline: 2px solid red;
@@ -332,6 +332,7 @@ img {
 /* Our Activity */
 
 .activity {
+  display: none;
   padding-bottom: 120px;
 }
 .activity-title {
@@ -346,11 +347,11 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.activity-item {
+@media screen and (min-width:1200px) {
+  .activity {
+    display: block;
+  }
 }
-.activity-img {
-}
-
 /* Our Team */
 
 .team {
@@ -434,11 +435,15 @@ img {
 }
 
 .customers {
-  width: 1128px;
+  /* width: 1128px;
   padding-top: 120px;
   padding-bottom: 120px;
   margin-right: auto;
+  margin-left: auto; */
+  
+  margin-right: auto;
   margin-left: auto;
+
 }
 .customers-title {
   font-size: var(--h-sc-sz);
@@ -450,12 +455,14 @@ img {
 
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 1 * 16px) / 2);
   list-style: none;
-  gap: 24px;
+  gap: 16px;
   padding-left: 0;
 }
 .customers-team {
-  width: 166px;
+  width: 190px;
   height: 88px;
 }
 .customers-link {
@@ -467,11 +474,11 @@ img {
   border: 1px solid var(--subtle-text);
   border-radius: 4%;
   color: var(--subtle-text);
-  transition: color var(--trns-hover), border var(--trns-hover);
+  transition: color var(--trns-hover), border var(--trns-hover); */
 }
 
 .customers-icon {
-  width: 104px;
+  width: 110px;
   height: 56px;
   fill: currentColor;
 }
