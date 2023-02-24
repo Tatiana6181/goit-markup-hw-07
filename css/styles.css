@@ -48,15 +48,21 @@ body {
   min-width: 320px;
   max-width: 428px;
   margin: 0 auto;
-  padding: 96px 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   outline: 2px solid red;
   outline-offset: -2px;
 }
+ .features, 
+  .activity, 
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 @media screen  and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    
 }
 }
 
@@ -68,6 +74,25 @@ body {
   }
 
 }
+@media screen  and (min-width: 768px) {
+  .features, 
+  .activity, 
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    
+}
+}
+@media screen  and (min-width: 1200px) {
+  .features, 
+  .activity, 
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+}
+
 h1,
 h2,
 h3,
@@ -93,7 +118,9 @@ img {
 }
 
 .header {
-  max-width: 1440px;
+  /* max-width: 1440px; */
+ padding-top: 0;
+ padding-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid;
@@ -104,9 +131,10 @@ img {
 .hdr-main {
   display: flex;
   align-items: center;
+  
 }
 .header-nav {
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 .header-logo {
   font-family: var(--secondary-fonts);
@@ -117,6 +145,7 @@ img {
   text-transform: uppercase;
   color: var(--hero-bgd-d);
   margin-right: 76px;
+  
 }
 .header-logo-color {
   color: var(--primary-brand);
@@ -193,17 +222,13 @@ align-items: center;
 justify-content: center;
 width: 32px;
 height: 22px;
-background-color: transparent;
+background-color: green;
 border: none;
 
 }
 .header-menu-icon {
-  fill: #2e2f42;
+  
 }
-.header-menu-btn {
- 
-}
-
 /*  Hero section  */
 
 .hero {
