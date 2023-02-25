@@ -278,7 +278,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-bottom: 0;
 }
 .hero {
-  max-width: 428px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--hero-bgd-d);
@@ -296,7 +296,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width:768px) {
 .hero {
-  max-width: 768px;
   padding-bottom: 108px;
 }
 }
@@ -471,6 +470,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 /* Our Team */
 
 .team {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--light);
 }
 .team-title {
