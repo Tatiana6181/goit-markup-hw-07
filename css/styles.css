@@ -1253,14 +1253,27 @@ a .portfolio-img:hover {
 .mobile-tel {
   margin-bottom: 40px;
 }
+@media screen and (min-width:480px) {
 .mobile-contacts-tel {
   text-decoration: none;
-  color: var(--primary-brand);
   font-weight: 600;
   font-size: 36px;
   line-height: calc(40 / 36);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
+
+@media screen and (max-width:479px) {
+  .mobile-contacts-tel {
+  text-decoration: none;
+  color: var(--primary-brand);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
 .mobile-contacts-tel:hover {
   color: var(--pressed-state);
 }
