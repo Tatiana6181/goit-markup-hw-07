@@ -614,7 +614,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .customers {
-    max-width: 1160px;
+    max-width: 1158px;
   }
 }
 
@@ -1342,4 +1342,8 @@ a .portfolio-img:hover {
 }
 .mobile-social-link:hover {
   background-color: var(--pressed-state);
+}
+.mobile-soc-links {
+  width: 24px;
+  height: 24px;
 }
