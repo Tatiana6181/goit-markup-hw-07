@@ -260,6 +260,10 @@ img {
 .header-menu:focus {
   fill: var(--pressed-state);
 }
+.header-menu-icon {
+  width: 30px;
+  height: 20px;
+}
 /*  Hero section  */
 @media screen and (min-width: 768px) {
   .header-menu {
@@ -890,6 +894,8 @@ img {
 }
 
 .footer-modal-icon {
+  width: 24px;
+  height: 24px;
 }
 .portfolio > .container {
   padding-top: 48px;
