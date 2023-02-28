@@ -897,22 +897,22 @@ img {
   width: 24px;
   height: 24px;
 }
-.portfolio > .container {
+section.portfolio{
   padding-top: 48px;
   padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
-  .portfolio > .container {
+  section.portfolio{
     padding-top: 64px;
     padding-bottom: 96px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio > .container {
+  section.portfolio{
     padding-top: 96px;
     padding-bottom: 120px;
   }
-}
+} 
 /* Button */
 .button-list {
   display: flex;
