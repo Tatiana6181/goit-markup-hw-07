@@ -45,27 +45,31 @@ body {
   letter-spacing: 0.02em;
 }
 section {
-  /* min-width: 320px; */
-  max-width: 440px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 96px;
   padding-bottom: 96px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  section {
+  .container {
     max-width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
   }
 }
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   section.activity {
     padding-top: 0;
   }
@@ -74,7 +78,7 @@ section {
   section.team {
     max-width: none;
   }
-}
+} */
 
 h1,
 h2,
@@ -101,7 +105,6 @@ img {
 }
 
 .header {
-  width: 428px;
   margin-right: auto;
   margin-left: auto;
   padding: 24px 15px;
@@ -276,10 +279,12 @@ img {
 .hero > .container {
   padding-top: 0;
   padding-bottom: 0;
-}
-.hero {
   margin-left: auto;
   margin-right: auto;
+}
+.hero {
+  /* margin-left: auto;
+  margin-right: auto; */
   background-color: var(--hero-bgd-d);
   padding-top: 112px;
   padding-bottom: 112px;
@@ -516,22 +521,6 @@ img {
   background-color: var(--light);
 }
 
-.team-container {
-  width: 428px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-@media screen and (min-width:768px) {
-  .team-container {
-  width: 768px;
-}
-}
-@media screen and (min-width:1200px) {
-  .team-container {
-  width: 1128px;
-}
-}
 
 .team-title {
   font-size: var(--h-sc-sz);
@@ -888,7 +877,7 @@ img {
   }
 }
 .footer-modal-item {
-  width: 396px;
+  width: 100%;
   height: 40px;
   margin-bottom: 16px;
   margin-top: 16px;
