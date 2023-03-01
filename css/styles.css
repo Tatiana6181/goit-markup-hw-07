@@ -706,16 +706,15 @@ img {
 .footer {
   background-color: var(--hero-bgd-d);
   padding: 96px 15px;
-}
-.footer-conteiner {
-  width: 428px;
   margin-left: auto;
   margin-right: auto;
+}
+.footer-conteiner {
+  
 
 }
 @media screen and (min-width:768px) {
   .footer-conteiner {
-    width: 550px;
     display: flex;
     flex-wrap: wrap;
     
@@ -724,7 +723,6 @@ img {
 
 @media screen and (min-width:1200px) {
   .footer-conteiner {
-    width: 1128px;
     flex-wrap: nowrap;
   }
 }
