@@ -45,16 +45,14 @@ body {
   letter-spacing: 0.02em;
 }
 section {
-  margin: 0 auto;
-
-  padding-left: 0px;
+  padding-left: 15px;
   padding-right: 15px;
   padding-top: 96px;
   padding-bottom: 96px;
+  margin-right: auto;
+  margin-left: auto;
 }
-@media screen and (min-width: 768px) {
-  
-}
+
 @media screen and (min-width: 1200px) {
   section {
     padding-top: 120px;
@@ -249,7 +247,6 @@ img {
   display: flex;
   width: 32px;
   height: 22px;
-  margin-right: 15px;
   margin-left: auto;
   background-color: transparent;
   border: none;
@@ -505,6 +502,7 @@ img {
 @media screen and (min-width: 1200px) {
   .activity {
     display: block;
+    padding-top: 0;
   }
 }
 /* Our Team */
@@ -705,7 +703,7 @@ img {
   .footer-conteiner {
     display: flex;
     flex-wrap: wrap;
-    max-width: 572px; 
+    max-width: 550px; 
   }
   }
 
