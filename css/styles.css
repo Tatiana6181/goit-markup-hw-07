@@ -606,6 +606,7 @@ img {
 .customers {
   margin-right: auto;
   margin-left: auto;
+  max-width: 396px;
 }
 @media screen and (min-width: 768px) {
   .customers {
